@@ -1,0 +1,130 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Anastasya\AppData\Local\Temp\idea1.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Anastasya\AppData\Local\Temp\idea1.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.7.2 (Oracle Corporation Java 19.0.2)
+[debug]       Load.loadUnit: plugins took 69.5165ms
+[debug]       Load.loadUnit: defsScala took 0.2624ms
+[debug] [Loading] Scanning directory C:\Users\Anastasya\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Anastasya\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 11.851 ms
+[debug]           Load.resolveProject(global-plugins) took 35.6234ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\Anastasya\.sbt\1.0\plugins, plugins: List(<none>))) took 70.3536ms
+[debug] [Loading] Done in C:\Users\Anastasya\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 87.636ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.1545ms
+[debug]     Load.loadUnit(file:/C:/Users/Anastasya/.sbt/1.0/plugins/, ...) took 165.0696ms
+[debug]   Load.apply: load took 339.0903ms
+[debug]   Load.apply: resolveProjects took 8.21ms
+[debug]   Load.apply: finalTransforms took 73.9298ms
+[debug]   Load.apply: config.delegates took 10.934ms
+[debug]   Load.apply: Def.make(settings)... took 592.6681ms
+[debug]   Load.apply: structureIndex took 138.6949ms
+[debug]   Load.apply: mkStreams took 2.5312ms
+[info] loading global plugins from C:\Users\Anastasya\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 2735.8754ms
+[debug]           Load.loadUnit: plugins took 42.9656ms
+[debug]           Load.loadUnit: defsScala took 0.0223ms
+[debug] [Loading] Scanning directory C:\Users\Anastasya\Desktop\MyScalaActor\project
+[debug]             Load.loadUnit: mkEval took 9.2616ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Anastasya\Desktop\MyScalaActor\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.3938 ms
+[info] loading settings for project myscalaactor-build from idea1.sbt ...
+[debug]               Load.resolveProject(myscalaactor-build) took 3.7001ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id myscalaactor-build, base: C:\Users\Anastasya\Desktop\MyScalaActor\project, plugins: List(<none>))) took 6.7052ms
+[debug] [Loading] Done in C:\Users\Anastasya\Desktop\MyScalaActor\project, returning: (myscalaactor-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 2988.2935ms
+[debug]           Load.loadUnit: cleanEvalClasses took 11.119ms
+[debug]         Load.loadUnit(file:/C:/Users/Anastasya/Desktop/MyScalaActor/project/, ...) took 3043.8969ms
+[debug]       Load.apply: load took 3045.8376ms
+[debug]       Load.apply: resolveProjects took 0.1022ms
+[debug]       Load.apply: finalTransforms took 12.8009ms
+[debug]       Load.apply: config.delegates took 0.6388ms
+[debug]       Load.apply: Def.make(settings)... took 106.1517ms
+[debug]       Load.apply: structureIndex took 38.7257ms
+[debug]       Load.apply: mkStreams took 0.0026ms
+[info] loading project definition from C:\Users\Anastasya\Desktop\MyScalaActor\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 5365.1169ms
+[debug]     Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\Anastasya\Desktop\MyScalaActor
+[debug]       Load.loadUnit: mkEval took 0.276ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\Anastasya\Desktop\MyScalaActor, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.1372 ms
+[info] loading settings for project myscalaactor from build.sbt ...
+[debug]         Load.resolveProject(myscalaactor) took 50.4993ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id myscalaactor, base: C:\Users\Anastasya\Desktop\MyScalaActor, plugins: List(<none>))) took 55.2547ms
+[debug] [Loading] Done in C:\Users\Anastasya\Desktop\MyScalaActor, returning: (myscalaactor)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1465.3926ms
+[debug]     Load.loadUnit: cleanEvalClasses took 25.8034ms
+[debug]   Load.loadUnit(file:/C:/Users/Anastasya/Desktop/MyScalaActor/, ...) took 6857.4531ms
+[debug] Load.apply: load took 6859.4099ms
+[debug] Load.apply: resolveProjects took 0.2974ms
+[debug] Load.apply: finalTransforms took 35.1129ms
+[debug] Load.apply: config.delegates took 0.4261ms
+[debug] Load.apply: Def.make(settings)... took 101.4246ms
+[debug] Load.apply: structureIndex took 38.1906ms
+[debug] Load.apply: mkStreams took 0.0026ms
+[info] set current project to AkkaActorTypedProject (in build file:/C:/Users/Anastasya/Desktop/MyScalaActor/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
